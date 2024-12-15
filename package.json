@@ -1,0 +1,20 @@
+{
+  "name": "discord-alarm-bot",
+  "version": "1.0.0",
+  "description": "A sophisticated Discord bot for setting and managing alarms with mentions and customizable time intervals",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
